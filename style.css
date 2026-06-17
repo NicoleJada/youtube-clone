@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+}
+header h1 {
+  color: red;
+  margin: 0;
+}
+header input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.profile-icon {
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+main {
+  flex: 3;
+}
+main h2 {
+  font-size: 18px;
+  margin: 15px 0 5px 0;
+}
+.views {
+  color: #606060;
+  font-size: 14px;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 15px 0;
+}
+.channel-icon {
+  border-radius: 50%;
+}
+.channel button {
+  margin-left: auto;
+  background: #cc0000;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.description {
+  background: #f1f1f1;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.comments {
+  margin-top: 30px;
+}
+.comment-box, .comment {
+  display: flex;
+  gap: 12px;
+  margin: 15px 0;
+}
+.comment-box input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+}
+.comment h4 {
+  margin: 0;
+  font-size: 14px;
+}
+.comment h4 span {
+  font-weight: normal;
+  color: #606060;
+  font-size: 12px;
+}
+.likes {
+  color: #606060;
+  font-size: 12px;
+}
+
+aside {
+  flex: 1;
+}
+.video-card {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.video-card img {
+  border-radius: 8px;
+}
+.video-card h4 {
+  margin: 0;
+  font-size: 14px;
+}
+.video-card p {
+  margin: 2px 0;
+  font-size: 12px;
+  color: #606060;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
